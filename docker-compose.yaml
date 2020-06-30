@@ -6,7 +6,7 @@ services:
     environment:
       RAILS_ENV: development
       NODE_ENV: development
-      SENTRY_DSN: ${SENTRY_DSN}
+      SENTRY_DSN: https://82e52bc9814f478a917a9f4b2a190202:2168ddd1901140f09f8d573fc1d4ea2f@o414348.ingest.sentry.io/5303654
       AUTH0_CLIENT_ID: ${AUTH0_CLIENT_ID}
       AUTH0_CLIENT_SECRET: ${AUTH0_CLIENT_SECRET}
       AUTH0_DOMAIN: ${AUTH0_DOMAIN}
